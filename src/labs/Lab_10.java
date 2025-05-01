@@ -15,7 +15,6 @@ public class Lab_10 {
         public DrawPoints() {
             loadPointsFromFile("INPUT.txt");
         }
-
         private void loadPointsFromFile(String filename) {
             try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
                 String line;
